@@ -10,7 +10,7 @@ namespace TrackerLibrary
     {
         public TeamModel TeamCompeting { get; set; } = new TeamModel();
         public double Score { get; set; }
-        public MatchupModel ParentMatchup { get; set; }
+        public MatchupModel? ParentMatchup { get; set; }
 
     }
 }
